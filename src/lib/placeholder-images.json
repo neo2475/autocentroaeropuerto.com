@@ -1,0 +1,28 @@
+{
+  "placeholderImages": [
+    {
+      "id": "hero-mechanic",
+      "description": "Taller mecánico moderno y limpio con un coche elevado en un elevador hidráulico",
+      "imageUrl": "/taller3.jpg",
+      "imageHint": "modern workshop"
+    },
+    {
+      "id": "hero-cover",
+      "description": "Imagen de portada de un coche deportivo",
+      "imageUrl": "/portada_1.webp",
+      "imageHint": "sports car"
+    },
+    {
+      "id": "avatar",
+      "description": "Avatar genérico de cliente",
+      "imageUrl": "https://images.unsplash.com/photo-1667867362800-c577ddf7a842?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3NDE5ODJ8MHwxfHNlYXJjaHw5fHxnZW5lcmljJTIwYXZhdGFyfGVufDB8fHx8MTc1OTE4ODYwMnww&ixlib=rb-4.1.0&q=80&w=1080",
+      "imageHint": "generic avatar"
+    },
+    {
+      "id": "mechanic-team",
+      "description": "Mecánico de confianza trabajando en el motor de un coche moderno",
+      "imageUrl": "/taller2.jpg",
+      "imageHint": "mechanic team"
+    }
+  ]
+}
