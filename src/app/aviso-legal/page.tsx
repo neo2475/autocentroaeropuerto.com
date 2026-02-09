@@ -27,7 +27,7 @@ export const metadata: Metadata = {
 };
 
 export default function LegalNoticePage() {
-  const lastUpdated = new Date().toLocaleDateString("es-ES");
+  const lastUpdated = "08/02/2026";
 
   return (
     <div className="flex flex-col min-h-screen">

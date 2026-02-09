@@ -3,6 +3,7 @@ import {
   Wrench, Cpu, ShieldCheck, Cog, AirVent, BatteryFull, Eye, Wind,
   Settings, Target, CarFront,
 } from "lucide-react";
+import { SERVICE_SLUGS } from "@/lib/service-slugs";
 
 export type Service = {
   slug: string;
@@ -125,5 +126,4 @@ export const SERVICES: Service[] = [
   },
 ];
 
-export const SERVICE_SLUGS = SERVICES.map(s => s.slug);
 export function getService(slug: string) { return SERVICES.find(s => s.slug === slug); }

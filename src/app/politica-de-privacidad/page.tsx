@@ -27,7 +27,7 @@ export const metadata: Metadata = {
 };
 
 export default function PrivacyPolicyPage() {
-  const lastUpdated = new Date().toLocaleDateString("es-ES");
+  const lastUpdated = "08/02/2026";
 
   return (
     <div className="flex flex-col min-h-screen">
@@ -71,7 +71,7 @@ export default function PrivacyPolicyPage() {
             <strong>Autocentro Aeropuerto</strong> (en adelante, “la Empresa”), con domicilio en
             <strong> Ctra. Aeropuerto Km. 4,4, 14005 Córdoba (Córdoba), España</strong>. Teléfono:
             <strong> +34 957 468 222</strong>. Email:
-            <strong> info@autocentroaeropuerto.com</strong>.
+            <strong> aeropuerto@autocentroaeropuerto.com</strong>.
           </p>
 
           <h2 id="datos" className="text-2xl font-bold font-headline mt-8 mb-4">
@@ -121,7 +121,7 @@ export default function PrivacyPolicyPage() {
           </h2>
           <p className="mb-3">
             Puedes ejercer tus derechos de acceso, rectificación, supresión, oposición, limitación y portabilidad
-            escribiendo a <strong>info@autocentroaeropuerto.com</strong> o al domicilio indicado. Tienes derecho a reclamar
+            escribiendo a <strong>aeropuerto@autocentroaeropuerto.com</strong> o al domicilio indicado. Tienes derecho a reclamar
             ante la <strong>Agencia Española de Protección de Datos</strong>.
           </p>
           <ul className="text-muted-foreground">
@@ -159,7 +159,7 @@ export default function PrivacyPolicyPage() {
             10. Contacto
           </h2>
           <p>
-            Para cualquier duda o ejercicio de derechos: <strong>info@autocentroaeropuerto.com</strong> — Tel.:{" "}
+            Para cualquier duda o ejercicio de derechos: <strong>aeropuerto@autocentroaeropuerto.com</strong> — Tel.:{" "}
             <strong>+34 957 468 222</strong>.
           </p>
         </article>

@@ -2,7 +2,8 @@
 import type { Metadata } from "next";
 import Header from "@/components/landing/header";
 import Link from "next/link";
-import { getService, SERVICE_SLUGS } from "@/lib/services-data";
+import { getService } from "@/lib/services-data";
+import { SERVICE_SLUGS } from "@/lib/service-slugs";
 import { notFound } from "next/navigation";
 
 export const dynamic = "error";
@@ -12,19 +13,41 @@ export async function generateStaticParams() {
   return SERVICE_SLUGS.map((slug) => ({ slug }));
 }
 
-type Props = { params: { slug: string } };
+type PageParams = { slug: string };
+type Props = { params: Promise<PageParams> };
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const s = getService(params.slug);
+  const { slug } = await params;
+  const s = getService(slug);
   if (!s) return {};
+
+  const canonicalPath = `/servicios/${s.slug}`;
+
   return {
     title: `${s.title} | Autocentro Aeropuerto`,
     description: s.summary,
+    alternates: { canonical: canonicalPath },
+    openGraph: {
+      title: `${s.title} | Autocentro Aeropuerto`,
+      description: s.summary,
+      url: `https://www.autocentroaeropuerto.com${canonicalPath}`,
+      type: "article",
+      locale: "es_ES",
+      siteName: "Autocentro Aeropuerto",
+      images: ["/portada_1.webp"],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: `${s.title} | Autocentro Aeropuerto`,
+      description: s.summary,
+      images: ["/portada_1.webp"],
+    },
   };
 }
 
-export default function ServicePage({ params }: Props) {
-  const s = getService(params.slug);
+export default async function ServicePage({ params }: Props) {
+  const { slug } = await params;
+  const s = getService(slug);
   if (!s) notFound();
   const Icon = s.icon;
 

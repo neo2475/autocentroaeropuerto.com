@@ -2,17 +2,87 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://www.autocentroaeropuerto.com/</loc>
-    <lastmod>2024-07-30</lastmod>
+    <lastmod>2026-02-08</lastmod>
     <priority>1.00</priority>
   </url>
   <url>
-    <loc>https://www.autocentroaeropuerto.com/politica-de-privacidad</loc>
-    <lastmod>2024-07-30</lastmod>
+    <loc>https://www.autocentroaeropuerto.com/servicios/</loc>
+    <lastmod>2026-02-08</lastmod>
+    <priority>0.90</priority>
+  </url>
+  <url>
+    <loc>https://www.autocentroaeropuerto.com/servicios/mantenimiento-preventivo/</loc>
+    <lastmod>2026-02-08</lastmod>
     <priority>0.80</priority>
   </url>
   <url>
-    <loc>https://www.autocentroaeropuerto.com/politica-de-cookies</loc>
-    <lastmod>2024-07-30</lastmod>
+    <loc>https://www.autocentroaeropuerto.com/servicios/diagnostico-electronico/</loc>
+    <lastmod>2026-02-08</lastmod>
     <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.autocentroaeropuerto.com/servicios/frenos-y-suspension/</loc>
+    <lastmod>2026-02-08</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.autocentroaeropuerto.com/servicios/motor-y-transmision/</loc>
+    <lastmod>2026-02-08</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.autocentroaeropuerto.com/servicios/neumaticos/</loc>
+    <lastmod>2026-02-08</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.autocentroaeropuerto.com/servicios/climatizacion/</loc>
+    <lastmod>2026-02-08</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.autocentroaeropuerto.com/servicios/baterias/</loc>
+    <lastmod>2026-02-08</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.autocentroaeropuerto.com/servicios/visibilidad/</loc>
+    <lastmod>2026-02-08</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.autocentroaeropuerto.com/servicios/escapes/</loc>
+    <lastmod>2026-02-08</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.autocentroaeropuerto.com/servicios/distribucion/</loc>
+    <lastmod>2026-02-08</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.autocentroaeropuerto.com/servicios/enganches-de-remolque/</loc>
+    <lastmod>2026-02-08</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.autocentroaeropuerto.com/servicios/calibracion-adas/</loc>
+    <lastmod>2026-02-08</lastmod>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.autocentroaeropuerto.com/aviso-legal/</loc>
+    <lastmod>2026-02-08</lastmod>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://www.autocentroaeropuerto.com/politica-de-privacidad/</loc>
+    <lastmod>2026-02-08</lastmod>
+    <priority>0.30</priority>
+  </url>
+  <url>
+    <loc>https://www.autocentroaeropuerto.com/politica-de-cookies/</loc>
+    <lastmod>2026-02-08</lastmod>
+    <priority>0.30</priority>
   </url>
 </urlset>

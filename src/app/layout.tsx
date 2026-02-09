@@ -49,9 +49,9 @@ export const metadata: Metadata = {
 const locationsStructuredData = [
   {
     '@context': 'https://schema.org',
-    '@type': 'AutomotiveBusiness',
+    '@type': 'AutoRepair',
     name: 'Autocentro Aeropuerto - Ctra. del Aeropuerto',
-    image: 'https://www.autocentroaeropuerto.com/Euromaster_logo_inicio.png',
+    image: 'https://www.autocentroaeropuerto.com/Euromaster_logo_inicio.webp',
     '@id': 'https://www.autocentroaeropuerto.com/#aeropuerto',
     url: 'https://www.autocentroaeropuerto.com/',
     telephone: '+34957468222',
@@ -64,6 +64,75 @@ const locationsStructuredData = [
       addressRegion: 'Córdoba',
       addressCountry: 'ES',
     },
+    openingHoursSpecification: [
+      {
+        '@type': 'OpeningHoursSpecification',
+        dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+        opens: '07:30',
+        closes: '15:30',
+      },
+      {
+        '@type': 'OpeningHoursSpecification',
+        dayOfWeek: 'Saturday',
+        opens: '09:00',
+        closes: '13:30',
+      },
+    ],
+    sameAs: ['https://www.facebook.com/autocentroaeropuerto/'],
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'AutoRepair',
+    name: 'Autocentro Aeropuerto - C.C. Miralbaida',
+    image: 'https://www.autocentroaeropuerto.com/Euromaster_logo_inicio.webp',
+    '@id': 'https://www.autocentroaeropuerto.com/#miralbaida',
+    url: 'https://www.autocentroaeropuerto.com/',
+    telephone: '+34957462068',
+    email: 'miralbaida@autocentroaeropuerto.com',
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress: 'Avda. Nuestra Señora de Begoña - C.C. Miralbaida',
+      addressLocality: 'Córdoba',
+      postalCode: '14005',
+      addressRegion: 'Córdoba',
+      addressCountry: 'ES',
+    },
+    openingHoursSpecification: [
+      {
+        '@type': 'OpeningHoursSpecification',
+        dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+        opens: '07:30',
+        closes: '15:30',
+      },
+    ],
+    sameAs: ['https://www.facebook.com/autocentroaeropuerto/'],
+  },
+  {
+    '@context': 'https://schema.org',
+    '@type': 'AutoRepair',
+    name: 'Autocentro Aeropuerto - P.I. Amargacena',
+    image: 'https://www.autocentroaeropuerto.com/Euromaster_logo_inicio.webp',
+    '@id': 'https://www.autocentroaeropuerto.com/#amargacena',
+    url: 'https://www.autocentroaeropuerto.com/',
+    telephone: '+34957429586',
+    email: 'amargacena@autocentroaeropuerto.com',
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress: 'Polígono Industrial Amargacena - C/ Ingeniero Juan de la Cierva',
+      addressLocality: 'Córdoba',
+      postalCode: '14013',
+      addressRegion: 'Córdoba',
+      addressCountry: 'ES',
+    },
+    openingHoursSpecification: [
+      {
+        '@type': 'OpeningHoursSpecification',
+        dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+        opens: '07:30',
+        closes: '15:30',
+      },
+    ],
+    sameAs: ['https://www.facebook.com/autocentroaeropuerto/'],
   },
 ];
 

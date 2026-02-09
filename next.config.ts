@@ -23,8 +23,6 @@ const nextConfig: NextConfig = {
       { protocol: 'https', hostname: 'www.google.com', pathname: '/**' },
     ],
   },
-  typescript: { ignoreBuildErrors: true },
-  eslint: { ignoreDuringBuilds: true },
 };
 
 export default nextConfig;
